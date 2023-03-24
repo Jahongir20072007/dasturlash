@@ -56,8 +56,9 @@
     margin-bottom: 15px;
     }
     .button{
-        width:150px;
+        width:130px;
         height: 50px;
+        
         border-radius: 8px;
         background-color: #90e051;
         border: 2px solid  #90e051;
@@ -124,6 +125,54 @@
         box-shadow: 0px 17.7668px 111.042px -22.2084px rgba(0, 0, 0, 0.25);
       
     }
+    .search {
+        width: 200px;
+        background-color: #fff;
+        border-radius: 20px;
+        height: 44px;
+        display: flex;
+      
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 35px;
+        margin-bottom: 10px !important;
+    }
+    .menu-card span {
+        font-size: 20px;
+        margin: -2px 0px;
+        display: inline-block;
+    }
+    .plus a{
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #90e051;
+        padding: 1px 10px;
+        border-radius: 70%;
+        font-size: 40px;
+        font-weight: 500;
+        background: #90E051;
+        box-shadow: 0px 5.59872px 18.1959px -1.39968px rgba(0, 0, 0, 0.25);
+    
+    }
+    
+    .search-2{
+        width: 144px;
+    }
+    .search input {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        width: 250px;
+      
+        padding: 10px;
+    }
+    .search img {
+        opacity: .8;
+        width: 25px;
+        margin-left: 20px;
+        height: 10px;
+    }
+    
     .review{
         height: 100%;
         margin: 3rem 0;
@@ -279,9 +328,9 @@
    }
    .app-big-img{
     position: absolute;
-    left: 0;
+    left: 60px;
     z-index: 9;
-    top: 0;
+    top: 30px;
 }
 .mobile-app{
     height: 100%;
@@ -318,9 +367,9 @@
 .app-small-img{
     width: 300px;
     position: absolute;
-    left: 0;
+    left: 60px;
     z-index: 8;
-    top:0;
+    top:30px;
     padding-top: 50px;
     padding-left: 90px;
 }
@@ -433,6 +482,7 @@ margin: 80px 15px;
     display: flex;
     align-items: center;
     justify-content: end;
+    
     flex-direction: column;
     
 }
@@ -473,6 +523,7 @@ margin-right: 60px;
         list-style: none;
     }
 .contact3{
+    left: 50px;
     margin-top: 15%;
     margin-right: 60px;
 }
